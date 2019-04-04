@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-<img src="Images/screenshot_app.png" width="160">
+<img src="Images/screenshot_app.jpg" width="160">
 
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
