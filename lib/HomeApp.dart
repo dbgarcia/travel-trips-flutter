@@ -6,8 +6,9 @@ class HomeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: new ThemeData(primarySwatch: Colors.teal),
-      home: new HomePage(),
+      theme: ThemeData(primarySwatch: Colors.teal),
+      home: HomePage(),
+      debugShowCheckedModeBanner: false      
     );
   }
 }
