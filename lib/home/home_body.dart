@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../components/image_widget.dart';
 import '../components/message_widget.dart';
 import '../components/text_widget.dart';
-import '../contants/constants.dart';
+import '../constants/constants.dart';
+
 
 class HomeBody extends StatelessWidget {
   const HomeBody({Key? key}) : super(key: key);

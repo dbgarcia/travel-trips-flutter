@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../components/app_bar_default.dart';
-import '../contants/constants.dart';
+
+import '../constants/constants.dart';
 import 'home_body.dart';
 
 class HomePage extends StatelessWidget {
