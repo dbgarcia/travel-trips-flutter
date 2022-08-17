@@ -11,7 +11,10 @@ class TextWidget extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       child: Text(
         text,
-        style: const TextStyle(fontSize: 20),
+        style: const TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),
       ),
     );
   }

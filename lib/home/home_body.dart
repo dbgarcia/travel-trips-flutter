@@ -12,12 +12,14 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),
-      child: Column(
-        children: const [
-          ImageWidget(url: Constants.imageUrl),
-          TextWidget(text: Constants.title),
-          MessageWidget(text: Constants.desc),
-        ],
+      child: Center(
+        child: Column(
+          children: const [
+            ImageWidget(url: Constants.imageUrl),
+            TextWidget(text: Constants.title),
+            MessageWidget(text: Constants.desc),
+          ],
+        ),
       ),
     );
   }

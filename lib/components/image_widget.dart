@@ -17,8 +17,14 @@ class ImageWidget extends StatelessWidget {
         error.toString(),
         softWrap: true,
       ),
-      loadingBuilder: (context, child, loadingProgress) =>
-          const CircularProgressIndicator(),
+      loadingBuilder: (context, child, loadingProgress) {
+        var cumulativeBytesLoaded = loadingProgress?.cumulativeBytesLoaded ?? 0;
+        var expectedTotalBytes = loadingProgress?.expectedTotalBytes ?? 0;
+
+        return cumulativeBytesLoaded >= expectedTotalBytes
+            ? child
+            : const CircularProgressIndicator();
+      },
     );
   }
 }
