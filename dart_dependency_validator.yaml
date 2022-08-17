@@ -1,0 +1,15 @@
+# Set true if you allow pinned packages in your project.
+allow_pins: false
+# Exclude one or more paths from being scanned. Supports glob syntax.
+exclude:
+  - "fastlane/**"
+  - "fastlane-native/**"
+  - "build/"
+  - "assets/"
+  - "android/"
+  - "ios/"
+  - ".vscode/"
+  - ".dart_tool/"
+# Ignore one or more packages.
+ignore:
+  - analyzer
